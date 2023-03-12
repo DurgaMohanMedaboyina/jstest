@@ -1,0 +1,99 @@
+.buttonCon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+}
+
+.question {
+  margin: 25px;
+  border-radius: 15px;
+  color: white;
+  padding: 12px;
+  background: linear-gradient(to right, #26d0ce, #1a2980);
+}
+
+@media screen and (max-width: 768px) {
+  textarea {
+    margin: 25px;
+    width: 60%;
+    border-radius: 15px;
+    font-size: 20px;
+    color: white;
+    background-image: radial-gradient(
+      circle farthest-corner at 0.1% 53.8%,
+      rgba(255, 182, 172, 1) 0%,
+      rgba(255, 123, 172, 1) 100.2%
+    );
+  }
+}
+
+@media screen and (min-width: 768px) {
+  textarea {
+    margin: 25px;
+    border-radius: 15px;
+    font-size: 20px;
+    color: white;
+    background-image: radial-gradient(
+      circle farthest-corner at 0.1% 53.8%,
+      rgba(255, 182, 172, 1) 0%,
+      rgba(255, 123, 172, 1) 100.2%
+    );
+  }
+}
+
+.Button {
+  background-image: linear-gradient(
+    to right,
+    #7474bf 0%,
+    #348ac7 51%,
+    #7474bf 100%
+  );
+  border: none;
+  color: white;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.submitButton {
+  background-image: linear-gradient(
+    to right,
+    #02aab0 0%,
+    #00cdac 51%,
+    #02aab0 100%
+  );
+  border: none;
+  color: white;
+  border-radius: 10px;
+}
+
+.questionColor {
+  color: indigo;
+}
+
+.noresponseColor {
+  color: whitesmoke;
+  background-color: #00cdac;
+  font-size: 25px;
+}
+
+@media screen and (max-width: 768px) {
+  .questionContainer {
+    display: flex;
+    flex-direction: column;
+    background-image: url('https://res.cloudinary.com/dewlfbykg/image/upload/v1670219386/background_texture_pxrkvz.png');
+    background-repeat: repeat;
+    padding: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .questionContainer {
+    display: flex;
+    flex-direction: column;
+    background-image: url('https://res.cloudinary.com/dewlfbykg/image/upload/v1670219386/background_texture_pxrkvz.png');
+    background-repeat: repeat;
+    padding: 20px;
+  }
+}

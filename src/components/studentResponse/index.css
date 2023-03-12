@@ -1,0 +1,59 @@
+.question1 {
+  margin: 25px;
+  width: 70%;
+  flex-wrap: wrap;
+  border-radius: 15px;
+  color: white;
+  padding: 12px;
+  background: linear-gradient(to right, #26d0ce, #1a2980);
+}
+
+.studentResponseContainer {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  background: linear-gradient(to right, #6dd5ed, #2193b0);
+  margin: 20px;
+  padding: 25px;
+  width: 400px;
+  border: 10px solid burlywood;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .studentResponseContainer {
+    width: 300px;
+  }
+}
+
+.qa {
+  background-color: #f4a460;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.qn {
+  font-size: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .student {
+    display: block;
+  }
+
+  .disc {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .student {
+    display: none;
+  }
+  .disc {
+    display: block;
+    background-color: #348ac7;
+    color: white;
+  }
+}
